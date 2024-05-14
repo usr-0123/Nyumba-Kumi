@@ -1,9 +1,7 @@
 # Android application project
-### Programming languages extends between kotlin and java
+Programming languages extends between kotlin and java
 
 # The Nyumba Kumi app
-Programming language: try with java if hard migrate to Kotlin.
-
 Login - as user and as admin
 Home page
 
@@ -25,6 +23,7 @@ Home page
 - User is able to upload image, document or video. Problem 3
 - Use firebase for backend and implement backup mechanism. Problem 2
 
+# Overview
 There are various manual methods of identity and management of households in a community.
 Currently this initiative is being run by manual methods and fragmented systems which are facing
 various challenges as explained in each one of them below.
