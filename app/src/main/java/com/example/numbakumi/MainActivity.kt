@@ -19,7 +19,7 @@ class MainActivity : ComponentActivity() {
             NumbaKumiTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
-                    Greeting("Android")
+                    Page1()
                 }
             }
         }
@@ -27,17 +27,17 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
+fun Page1() {
     Text(
-            text = "Hello $name!",
-            modifier = modifier
+            text = "Page 1",
+            modifier = Modifier.fillMaxSize()
     )
 }
 
 @Preview(showBackground = true)
 @Composable
-fun GreetingPreview() {
+fun Page1Preview() {
     NumbaKumiTheme {
-        Greeting("Android")
+        Page1()
     }
 }
